@@ -8,6 +8,9 @@ html {
 
 body {
   align-items: center;
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d130667e-bfcb-4eba-9a64-ee72d531bde1/d4hx8hz-a4636a1b-1f9d-4aa8-b3a3-54d93b1f9fec.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDEzMDY2N2UtYmZjYi00ZWJhLTlhNjQtZWU3MmQ1MzFiZGUxXC9kNGh4OGh6LWE0NjM2YTFiLTFmOWQtNGFhOC1iM2EzLTU0ZDkzYjFmOWZlYy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.0oeY01E8aIcRo4lHFdoaPl5xVdrjL60qRJEqJsrNKHk");
+  background-position: bottom;
+  background-size: cover;
   display: grid;
   grid-template-rows: auto;
   justify-items: center;
@@ -15,8 +18,9 @@ body {
 
 .container,
 div {
-  background: lightgray;
+  background: azure;
   border-radius: 10px;
+  opacity: 0.8;
   padding: 1em;
 }
 
