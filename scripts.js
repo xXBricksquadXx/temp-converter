@@ -1,18 +1,15 @@
-function c2f(c) {
-  return (9 / 5) * c + 32;
-}
-function f2c(f) {
-  return (5 / 9) * (f - 32);
-}
+import convert from "./temp-lib.js";
 
-const celsius = document.getElementById("degC");
-const fahrenheit = document.getElementById("degF");
-fahrenheit.value = c2f(celsius.value);
+console.log(convert);
 
-celsius.oninput = function c2f2(e) {
-  fahrenheit.value = c2f(e.target.value);
-};
+const inputs = document.querySelectorAll("input");
 
-fahrenheit.oninput = function f2c2(e) {
-  celsius.value = f2c(e.target.value);
-};
+inputs.forEach((input) => {
+  input.addEventListener("input", function handleKeyUp() {
+    if (this.id === "degF") {
+      inputs[0].value = convert(this.value, "toCelsius");
+    } else {
+      inputs[1].value = convert(this.value, "toFahrenheit");
+    }
+  });
+});
