@@ -15,13 +15,17 @@
 
 ### Built With
 
+🍦 Javascript
+
 ## Features
 
 <!-- TODO: List what specific 'user problems' that this application solves. -->
 
 ## Contact
 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+[Dev.TO](https://dev.to/xxbricksquadxx)
+
+[Linkedin](https://www.linkedin.com/in/colby-cardell-aaaa26157/)
 
 ## Acknowledgements
 
